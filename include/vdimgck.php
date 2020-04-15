@@ -1,4 +1,5 @@
 <?php
+require_once('common.php');
 session_start();
 
 //获取随机字符

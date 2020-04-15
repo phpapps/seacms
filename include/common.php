@@ -189,12 +189,12 @@ if( m_eregi('windows', @getenv('OS')) )
 }
 
 //Session保存路径
-/*$sessSavePath = sea_DATA."/sessions/";
+$sessSavePath = sea_DATA."/sessions/";
 if(is_writeable($sessSavePath) && is_readable($sessSavePath))
 {
 	session_save_path($sessSavePath);
 }
-*/
+
 $timestamp = time();
 
 //数据库配置文件
